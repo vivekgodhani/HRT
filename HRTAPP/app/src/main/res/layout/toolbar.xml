@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="35dp"
+    android:background="@color/colorPrimary"
+    android:elevation="4dp">
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="35dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="right"
+        android:background="@drawable/ic_send_black_24dp"
+        android:onClick="connectServer" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="35dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="right"
+        android:background="@drawable/ic_queue_black_24dp"
+        android:onClick="onchoosefile" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="78dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="left"
+        android:fontFamily="sans-serif-medium"
+        android:text="HRT"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="24sp" />
+
+</androidx.appcompat.widget.Toolbar>
